@@ -1,0 +1,326 @@
+@media (max-width: 1270px) {
+  .commentOpenPosi {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    position: relative;
+    background: white;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .userPostImgSizeOpen {
+    max-width: 600px;
+    object-fit: contain;
+    background-color: black;
+  }
+}
+
+@media (max-width: 1160px) {
+  .commentTest {
+    overflow: auto;
+    padding-top: 24px;
+    max-height: 72vh;
+  }
+
+  .commentOpenPosi {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    position: relative;
+    background: white;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+}
+.dropdown-content {
+  display: none !important;
+}
+
+@media (max-width: 1030px) {
+  .dropdown-content {
+    display: flex !important;
+    position: fixed;
+    background-color: #f1f1f1;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+    bottom: 52px;
+    left: 4px;
+    right: 4px;
+    z-index: 1;
+    border-radius: 10px;
+    border: 1px solid gray;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .userPostImgSizeOpen {
+    max-width: 500px;
+    object-fit: contain;
+    background-color: black;
+  }
+
+  .commentTest {
+    overflow: auto;
+    padding-top: 24px;
+    max-height: 64vh;
+  }
+  .footerCountainer {
+    position: fixed;
+    width: 100%;
+    display: flex !important;
+    background-color: white;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 54px;
+    border-bottom: 1px solid #00000026;
+    bottom: 0;
+    border-top: 1px solid gray;
+    left: 0;
+    right: 0;
+  }
+
+  .iconCountainerPosi {
+    display: none !important;
+  }
+
+  .iconSizeheader {
+    display: none;
+  }
+
+  .iconCountainer {
+    display: none;
+  }
+
+  .myUsericonSize {
+    display: none;
+  }
+
+  .mainIcon {
+    max-height: 37px;
+    display: flex;
+    align-items: center;
+    width: 128px;
+  }
+
+  .mainCountainer {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    font-family: sans-serif;
+    position: relative;
+    padding-bottom: 40px;
+  }
+
+  .userSidebarCountainer {
+    border: none;
+    max-width: 470px;
+    border-radius: 8px;
+    display: flex;
+  }
+
+  div.userSidebarCountainer {
+    background-color: white;
+    overflow-x: hidden;
+    white-space: nowrap;
+    display: flex;
+    justify-content: space-between;
+    height: 130px;
+    align-items: center;
+  }
+
+  .inputCss {
+    height: 34px;
+    width: 138px !important;
+    border-radius: 10px;
+    border: 1px solid gray;
+    padding-left: 26px;
+    outline: none;
+    border-color: #0000001e;
+  }
+
+  .mainContentLe {
+    display: flex;
+    margin-top: -36px;
+  }
+
+  .mainCountainerLe {
+    padding: 0px !important;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .mainPosiLe {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+  .mainCountainerRi {
+    display: none !important;
+  }
+
+  .userPostImgSize {
+    width: 350px;
+
+    object-fit: fill;
+  }
+
+  .userContentCountainerLe {
+    background-color: #55acf800;
+    width: 100%;
+  }
+
+  .shareBoxCountainer {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    align-items: center;
+    background-color: white;
+    border: 1px solid gray;
+    width: 350px;
+    border-radius: 40px;
+    padding-top: 12px;
+    justify-content: center;
+    top: 40%;
+    z-index: 2;
+  }
+}
+
+@media (max-width: 872px) {
+  .commentTest {
+    overflow: auto;
+    padding-top: 24px;
+    max-height: 43vh;
+  }
+  .userPostImgSizeOpen {
+    object-fit: contain;
+    background-color: black;
+  }
+
+  .commentOpenPosi {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    position: relative;
+    background: white;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+}
+
+@media (max-width: 766px) {
+  .commentTest {
+    overflow: auto;
+    padding-top: 29px !important;
+    max-height: 40vh;
+  }
+}
+
+@media (max-width: 715px) {
+  .userPostImgSizeOpen {
+    object-fit: contain;
+    background-color: black;
+  }
+  .commentTest {
+    overflow: auto;
+    padding-top: 24px;
+    max-height: 66vh;
+  }
+  .postOpenPosiLX {
+    display: none;
+  }
+
+  .commentOpenPosi {
+    display: flex;
+    position: relative;
+    background: white;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 474px) {
+  .sidebarButtonR {
+    display: none;
+  }
+
+  .sidebarButtonL {
+    display: none;
+  }
+
+  div.userSidebarCountainer {
+    background-color: white;
+    overflow-x: auto;
+    white-space: nowrap;
+    display: flex;
+    justify-content: space-between;
+    height: 130px;
+    align-items: center;
+  }
+
+  .mainContentLe {
+    display: flex;
+    padding-bottom: 34px;
+    margin-top: -36px !important;
+  }
+
+  .postMainCountainer {
+    border: 1px solid gray;
+    background-color: white;
+    border-radius: 0;
+    max-width: 100%;
+  }
+
+  .mainPosiLe {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: unset !important;
+  }
+
+  .mainIcon {
+    max-height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .headerCountainer {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    height: 54px;
+    border-bottom: 1px solid #00000026;
+    z-index: 1;
+    flex-wrap: wrap;
+  }
+
+  .inputCss {
+    width: 114px !important;
+  }
+}
+
+@media (max-height: 650px) {
+  .userPostImgSizeOpen {
+    object-fit: contain;
+    background-color: black;
+  }
+
+  .postMainCountainerOpen {
+    border: none;
+    background-color: #ffffff00;
+    border-radius: 8px;
+    display: flex;
+    position: fixed;
+    top: 17px;
+    z-index: 3;
+    justify-content: center;
+  }
+}

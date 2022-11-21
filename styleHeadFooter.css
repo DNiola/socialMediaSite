@@ -1,0 +1,241 @@
+h1 {
+  font-family: "Dancing Script", cursive;
+}
+
+.userHeaderCountainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 54px;
+  padding-left: 8px;
+}
+
+.userHeader {
+  display: flex;
+  align-items: center;
+}
+
+.userHeaderOpen {
+  display: flex;
+  align-items: center;
+  background: white;
+  border-top-left-radius: 10px;
+  min-height: 54px;
+}
+
+.headerCountainer {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  background-color: white;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 54px;
+  border-bottom: 1px solid #00000026;
+  z-index: 1;
+}
+
+.headerNoSearchCountainer {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  background-color: white;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 54px;
+  border-bottom: 1px solid #00000026;
+  z-index: 1;
+  top: 0;
+}
+
+.footerCountainer {
+  display: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.paddLeftRight12px {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.mainCountainerLe {
+  padding: 16px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.mainCountainerRi {
+  padding: 16px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.iconCountainerPosi {
+  display: flex;
+}
+
+.iconSize {
+  height: 30px;
+  width: 30px;
+}
+
+.mainIcon {
+  max-height: 48px;
+  display: flex;
+  align-items: center;
+}
+
+.mainIconText {
+  color: black !important;
+  text-decoration: none;
+}
+
+.myUsericonSize {
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  object-fit: cover;
+  cursor: pointer;
+  border: 0.5px solid #b32121;
+  padding: 2px;
+  object-fit: cover;
+}
+
+.myUsericonSizeFooter {
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  object-fit: cover;
+  cursor: pointer;
+  border: 0.5px solid #b32121;
+  padding: 2px;
+  object-fit: cover;
+}
+
+.iconCountainer {
+  padding-left: 2px;
+  padding-right: 2px;
+  display: flex;
+}
+
+.iconFooterCountainer {
+  padding-left: 2px;
+  padding-right: 2px;
+  display: flex;
+}
+
+.btnHeader {
+  border: none;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 100px;
+}
+
+.btnHeader:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.032);
+}
+
+.btnHeader:active {
+  background-color: rgba(255, 255, 255, 0.044);
+}
+
+.inputCountainer {
+  cursor: pointer;
+}
+
+.inputCss {
+  height: 34px;
+  width: 250px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  background: rgb(245, 245, 245)
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E")
+    no-repeat 8px center;
+  padding-left: 26px;
+  outline: none;
+  border-color: #0000001e;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.iconFooterSizePost {
+  height: 18px;
+  width: 18px;
+  padding: 4px;
+  border-radius: 30%;
+  cursor: pointer;
+}
+
+.footerLinkCountainer {
+  display: flex;
+}
+
+.footerText {
+  color: gray !important;
+  text-decoration: unset;
+  padding: 4px;
+  margin: 2px;
+}
+.footerText:hover {
+  background-color: rgba(0, 0, 0, 0.036);
+  border-radius: 10px;
+}
+
+/*DropDown Menu*/
+.dropdown {
+  float: right;
+  position: fixed;
+  display: none;
+  z-index: 2;
+}
+
+.dropdown-content {
+  display: flex;
+  position: fixed;
+  background-color: #f1f1f1;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+  bottom: 52px;
+  left: 4px;
+  right: 4px;
+  z-index: 1;
+  border-radius: 10px;
+  border: 1px solid gray;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dropdown-content a {
+  color: black !important;
+  text-decoration: none;
+  display: block;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 4px;
+}
+
+.dropdown a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
+
+.bttnFooter {
+  border: none;
+  display: flex;
+  align-items: center;
+  background-color: white;
+}

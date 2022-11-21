@@ -1,0 +1,105 @@
+/*Dsgvo*/
+body {
+  margin: 0;
+}
+
+.menuBarText {
+  color: black;
+  font-size: x-large;
+  font-family: "Dancing Script", cursive;
+  text-decoration: none;
+  border: 1px solid gray;
+  border-radius: 8px;
+  padding: 2px;
+}
+
+.menuBarText:hover {
+  background-color: #80808024;
+}
+
+.impressum-container {
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 90px;
+  padding-top: 60px;
+}
+
+.impressum-headline {
+  font-family: none;
+  display: flex;
+  justify-content: center;
+}
+
+.dsgvo-headline {
+  font-family: none;
+  display: flex;
+  justify-content: center;
+}
+
+.dsgvo-container {
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  overflow-wrap: anywhere;
+}
+
+.dsgvo-h2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.dsgvo-h3 {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.dsgvo-h4 {
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+
+.mainIconImpressum {
+  max-height: 37px;
+  display: flex;
+  align-items: center;
+  width: 128px;
+  justify-content: center;
+}
+
+
+@media (max-width: 900px) {
+  .mainIconImpressum {
+    max-height: 37px;
+    display: flex;
+    align-items: center;
+    width: 128px;
+    justify-content: center;
+  }
+}
+
+
+@media (max-width: 658px) {
+  .dsgvo-headline {
+    font-family: none;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+  }
+}
+
+
+@media (max-width: 435px) {
+  .dsgvo-headline {
+    font-family: none;
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+  }
+}
